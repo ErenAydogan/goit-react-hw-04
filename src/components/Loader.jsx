@@ -1,6 +1,6 @@
 import ClipLoader from "react-spinners/ClipLoader";
 
-function Loader() {
+const Loader = () => {
   return (
     <div>
       <ClipLoader
