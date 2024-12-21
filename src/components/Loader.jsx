@@ -1,15 +1,9 @@
-import ClipLoader from "react-spinners/ClipLoader";
+import { TailSpin } from "react-loader-spinner";
 
-const Loader = () => {
+function Loader() {
   return (
     <div>
-      <ClipLoader
-        color={true}
-        loading={"#323233"}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
+      <TailSpin height="80" width="80" color="#4fa94d" />
     </div>
   );
 }
